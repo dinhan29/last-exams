@@ -1,0 +1,200 @@
+/* User-detail.blade.php */
+.question-text {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 2px rgb(0 0 0 / 20%);
+}
+.answer-text {
+  border: none;
+  box-shadow: 3px 1px 5pt 2pt #838f9b;
+  border-radius:5px;
+}
+.p-nameexam {
+  width: 190px;
+  display: inline-block;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.div-nameexam {
+  border: 1px solid #17a2b8;
+  background-color: #17a2b8;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 55px;
+  border-radius: 10px;
+}
+.div-form {
+  background-color: #e9a6bf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.div-form-2 {
+  background-color: #ffa64d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+/* getExam */
+.content-question {
+  background-color: #ff6994;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.p-question {
+  color: #33ebd6;
+  font-size: 20px;
+}
+.div-answer {
+  background-color: #33ebd6;
+  border-radius: 10px;
+}
+.h1-nameexam {
+  text-shadow: 1px 2px black;
+  color: gold;
+}
+/* myResult */
+.div-result {
+  border-radius: 10px;
+  /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+  background-color: #ffcccc;padding-top: 10px;
+  margin-left: 200px;
+
+}
+.p-result{
+  font-size: 25px;
+  color: midnightblue;
+}
+/* Five Star */
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+/* add.blade.php */
+.col-sm-4 .toggle {
+  width: 90px!important;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 100%!important;
+}
+.col-sm-6 .select-subject {
+  display: none;
+}
+.col-sm-6 .select-chapter {
+  display: none;
+}
+/* Index.blade.php */
+/* Type red */
+.teacher {
+  color:red;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.h3-nameexam {
+  color: red;
+  text-align: center;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.subject {
+  color:red;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.grade {
+  color:red;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.chapter {
+  color:red;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.participants {
+  color:red;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+/* Type green */
+.teacher-2 {
+  color:green;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.h3-nameexam-2 {
+  color:green;
+  text-align: center;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.subject-2 {
+  color:green;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.grade-2 {
+  color:green;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.chapter-2 {
+  color:green;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.participants-2 {
+  color:green;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+/* Type blue */
+.teacher-3 {
+  color:#15a3b8;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.h3-nameexam-3 {
+  color:#15a3b8;
+  text-align: center;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.subject-3 {
+  color:#15a3b8;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.grade-3 {
+  color:#15a3b8;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.chapter-3 {
+  color:#15a3b8;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.participants-3 {
+  color:#15a3b8;
+  text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff,;text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
